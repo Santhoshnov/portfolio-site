@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import About from './components/About';
 import Achievements from './components/Achievements';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
    <h1 className="text-3xl font-bold underline">
     AARAMBIKALAMA !
     <Home />
+    <Navbar/>
     <Projects />
     <Skills />
     <About/>
