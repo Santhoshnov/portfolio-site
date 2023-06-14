@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.toggle-checkbox:checked + .toggle-label .toggle-inner {
+    transform: translateX(100%);
+  }
+  
+  .toggle-checkbox:checked + .toggle-label .toggle-switch {
+    background-color: #fff;
+  }
+  
+  .toggle-label {
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #6b7280;
+    border-radius: 9999px;
+    position: relative;
+  }
+  
+  .toggle-inner {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.2s;
+  }
+  
+  .toggle-switch {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .dark .toggle-label {
+    background-color: #4b5563;
+  }
+  
+  .dark .toggle-inner {
+    transform: translateX(100%);
+  }
+  
+  .dark .toggle-switch {
+    background-color: #fff;
+  }
