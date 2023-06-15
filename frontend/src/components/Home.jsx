@@ -116,7 +116,7 @@ const Home = () => {
         </span>
       </h1>
 
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-20">
         <div className="rounded-lg overflow-hidden shadow-md w-48 sm:w-56 md:w-64">
           <img
             src={santhosh}
