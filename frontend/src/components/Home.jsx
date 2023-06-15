@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon, faHome, faInfo, faBriefcase, faPhone, faCode, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { Typewriter } from 'react-simple-typewriter';
-import santhosh from "../assets/santhosh.JPG";
+import santhosh from "../assets/santhosh.jpg";
 
 const Home = () => {
   const [darkToggle, setDarkToggle] = React.useState(false);
