@@ -100,8 +100,25 @@ const Home = () => {
           </li>
         </ul>
       </nav>
+           
+ <div className="flex justify-center mt-20">
+  <div className="rounded-lg overflow-hidden shadow-md w-48 sm:w-56 md:w-64 shadow-lg">
+    <img
+      src={santhosh}
+      alt=""
+      className="w-full h-auto"
+    />
+  </div>
+</div>
 
-      <h1 className="text-4xl md:text-6xl text-xl md:text-6xl text-center pt-20 font-normal">
+
+
+
+
+
+
+
+      <h1 className="text-4xl md:text-6xl text-xl md:text-6xl text-center pt-14 font-normal">
         Hello World!{" "}
         <span className={`text-purple-700 font-bold ${darkToggle ? "text-purple-400" : ""}`}>
           <Typewriter
@@ -115,17 +132,6 @@ const Home = () => {
           />
         </span>
       </h1>
-
-      <div className="flex justify-center mt-20">
-        <div className="rounded-lg overflow-hidden shadow-md w-48 sm:w-56 md:w-64">
-          <img
-            src={santhosh}
-            alt=""
-            className="w-full h-auto"
-          />
-        </div>
-      </div>
-
     </div>
   );
 };
