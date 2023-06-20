@@ -117,21 +117,44 @@ const Home = () => {
 
 
 
+<div className="flex flex-col justify-center items-center mt-5">
+        <h1 className="text-4xl md:text-6xl text-xl md:text-6xl text-center pt-14 font-normal">
+          Hello World!{" "}
+          <span className={`text-purple-700 font-bold ${darkToggle ? "text-purple-400" : ""}`}>
+            <Typewriter
+              words={['I am Santhosh S', 'Web Developer', 'Founder of The CodeRizz']}
+              loop={Infinity}
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </span>
+        </h1>
 
-      <h1 className="text-4xl md:text-6xl text-xl md:text-6xl text-center pt-14 font-normal">
-        Hello World!{" "}
-        <span className={`text-purple-700 font-bold ${darkToggle ? "text-purple-400" : ""}`}>
-          <Typewriter
-            words={['I am Santhosh S', 'Budding Engineer', 'Web Developer']}
-            loop={Infinity}
-            cursor
-            cursorStyle="|"
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-          />
-        </span>
-      </h1>
+        <p className={`text-sm md:text-lg lg:text-xl text-center mt-10 mx-10 lg:mx-auto max-w-2xl lg:max-w-7xl ${darkToggle ? 'text-white' : 'text-black'}`} style={{ lineHeight: "1.8" }}>
+  I am a full-stack developer. I started learning programming and web development about two years ago. I am really enthusiastic about it and have become skilled in both front-end and back-end development. I am currently pursuing a Bachelor's degree in Computer Science and Engineering. I am proud to be one of the founders of the CodeRizz Coding Club at SRMVEC, where I am in charge of leading the web development domain. I always enjoy learning and staying updated with new technologies through building projects. Let's work together and create something amazing!
+</p>
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 };
