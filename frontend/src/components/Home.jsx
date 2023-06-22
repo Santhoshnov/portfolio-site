@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun, faMoon, faHome, faInfo, faBriefcase, faPhone, faCode, faLaptopCode,faDownload, faLinkedinIn} from "@fortawesome/free-solid-svg-icons";
+import { faSun, faMoon, faHome, faInfo, faBriefcase, faPhone, faCode, faLaptopCode,faDownload,faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import { Typewriter } from 'react-simple-typewriter';
 import santhosh from "../assets/santhosh.png";
 import project1 from "../assets/project1.png";
@@ -14,6 +14,7 @@ import tproject4 from "../assets/tproject4.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import resume from "../assets/Santhosh_resume.pdf";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
 const TeamProjects = () => {
@@ -210,7 +211,7 @@ const Home = () => {
           Hello World!{" "}
           <span className={`text-purple-700 font-bold ${darkToggle ? "text-purple-400" : ""}`}>
             <Typewriter
-              words={['I am Santhosh S', 'Web Developer', 'Founder of The CodeRizz']}
+              words={['I am Santhosh S','Budding Engineer', 'Web Developer',]}
               loop={Infinity}
               cursor
               cursorStyle="|"
@@ -232,6 +233,9 @@ const Home = () => {
       </li>
 
       </div>
+      <div className="flex justify-center">
+          <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"}`}>Projects</h1>
+        </div>
 
       <div className="mt-20">
         <div className="flex justify-center mt-10">
@@ -313,7 +317,7 @@ const Home = () => {
 
           <div className="w-1/2 md:w-1/4 lg:w-1/6 flex justify-center">
             <div className="text-center">
-              <h2 className="text-2xl font-medium">Databases</h2>
+              <h2 className="text-2xl font-medium">Database</h2>
               <ul className="mt-4">
                 <li>Mongo DB</li>
                 <li>MySQL</li>
@@ -332,18 +336,21 @@ const Home = () => {
           <ul className={`text-2xl space-x-8 ${darkToggle ? "text-white" : "text-black"}`}>
             <li>
               <a href="https://github.com/Santhoshnov" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                <FontAwesomeIcon icon={faCode} />
+                <FaGithub />
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/santhosh-s-950184160" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                <FontAwesomeIcon icon={faCode} />
+              <a href="https://www.linkedin.com/in/santhosh-saravanan-236986211/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                <FaLinkedin />
               </a>
             </li>
             <li>
-              <a href="mailto:santhoshnov1@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                <FontAwesomeIcon icon={faCode} />
+              <a href="mailto:shirobro009@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                <FontAwesomeIcon icon={faEnvelope} />
               </a>
+            </li>
+            <li>
+            <FontAwesomeIcon icon={faPhone} className="mb-1" />
             </li>
           
           </ul>
