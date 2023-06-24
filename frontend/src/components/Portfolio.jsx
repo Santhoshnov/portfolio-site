@@ -275,13 +275,12 @@ const Portfolio = () => {
         <div className="mt-5">
   <div className="flex justify-center">
     <button
-      className={`text-2xl font-medium py-2 px-6 rounded-lg ${
+      className={`text-xl font-medium py-2 px-6 rounded-lg ${
         darkToggle ? "bg-purple-700 text-white" : "bg-gray-900 text-white"
       }`}
       onClick={toggleProjectsDisplay}
     >
-      {displayPersonalProjects ? "Personal Projects" : "Team Projects"}
-      {displayPersonalProjects && " - Click Me"}
+      {displayPersonalProjects ? "click me to view Team projects" : "click me to view Personal projects"}
     </button>
   </div>
 
