@@ -248,7 +248,7 @@ const Portfolio = () => {
         </h1>
         {/*about */}
       
-        <p className={`text-sm md:text-lg lg:text-2xl text-center mt-10 mx-10 lg:mx-auto max-w-2xl lg:max-w-6xl ${darkToggle ? 'text-white' : 'text-black'}`} style={{ lineHeight: "1.8" }} ref={sectionRefs.about} >
+        <p className={`text-sm md:text-lg lg:text-2xl text-center mt-10 mx-10 lg:mx-auto max-w-2xl lg:max-w-4xl ${darkToggle ? 'text-white' : 'text-black'}`} style={{ lineHeight: "1.8" }} ref={sectionRefs.about} >
           I am a full-stack developer. I started learning programming and web development about two years ago. I am really enthusiastic about it and have become skilled in both front-end and back-end development. I am currently pursuing a Bachelor's degree in Computer Science and Engineering. I am proud to be one of the founders of the CodeRizz Coding Club at SRMVEC, where I am in charge of leading the domain of Web Development. I always enjoy learning and staying updated with new technologies through building projects. Let's work together and create something amazing!
         </p>
         <div className="mt-10">
