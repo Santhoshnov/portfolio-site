@@ -270,21 +270,29 @@ const Portfolio = () => {
       <div className="flex justify-center mt-20">
           <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"}`}  ref={sectionRefs.projects}>Portfolio</h1>
         </div>
-      
-      <div className="mt-5">
-        <div className="flex justify-center">
-          <p  className={`text-xl font-sm ${
-              darkToggle ? " text-white" : "text-gray"
-            }`}>click this 👉🏻</p>
-          <button
-            className={`text-2xl font-medium py-2 px-6 rounded-lg ${
-              darkToggle ? "bg-purple-700 text-white" : "bg-gray-900 text-white"
-            }`}
-            onClick={toggleProjectsDisplay}
-          >
-            {displayPersonalProjects ? "Personal Projects" : "Team Projects"}
-          </button>
-        </div>
+        <div className="mt-5">
+  <div className="flex justify-center">
+    <p className={`text-xl font-sm ${
+      darkToggle ? "text-white" : "text-gray"
+    }`}>
+      <span
+        className="cursor-pointer animate-bounce"
+        role="img"
+        aria-label="finger pointing">
+        👉🏻
+      </span>
+      <span className="ml-2">Click Me!</span>
+    </p>
+    <button
+      className={`text-2xl font-medium py-2 px-6 rounded-lg ${
+        darkToggle ? "bg-purple-700 text-white" : "bg-gray-900 text-white"
+      }`}
+      onClick={toggleProjectsDisplay}
+    >
+      {displayPersonalProjects ? "Personal Projects" : "Team Projects"}
+    </button>
+  </div>
+
 
         {/* Mobile view */}
         <div className="md:hidden flex justify-center">
