@@ -270,7 +270,7 @@ const Portfolio = () => {
       <div className="flex justify-center mt-20">
           <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"}`}  ref={sectionRefs.projects}>Portfolio</h1>
         </div>
-
+       
       <div className="mt-5">
         <div className="flex justify-center">
           <button
