@@ -280,7 +280,7 @@ const Portfolio = () => {
       }`}
       onClick={toggleProjectsDisplay}
     >
-      {displayPersonalProjects ? "click me to view Team projects" : "click me to view Personal projects"}
+      {displayPersonalProjects ? "click here to view Team projects" : "click here to view Personal projects"}
     </button>
   </div>
 
