@@ -270,6 +270,8 @@ const Portfolio = () => {
       <div className="flex justify-center mt-20">
           <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"}`}  ref={sectionRefs.projects}>Portfolio</h1>
         </div>
+
+        
         <div className="mt-5">
   <div className="flex justify-center">
     <p className={`text-xl font-sm ${
@@ -281,7 +283,6 @@ const Portfolio = () => {
         aria-label="finger pointing">
         👉🏻
       </span>
-      <span className="ml-2">Click Me!</span>
     </p>
     <button
       className={`text-2xl font-medium py-2 px-6 rounded-lg ${
