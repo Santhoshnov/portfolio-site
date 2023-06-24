@@ -278,7 +278,7 @@ const Portfolio = () => {
             }`}>click this 👉🏻</p>
           <button
             className={`text-2xl font-medium py-2 px-6 rounded-lg ${
-              darkToggle ? "bg-purple-700 text-white" : "bg-gray-900 text-white"
+              darkToggle ? "text-white" : "text-gray"
             }`}
             onClick={toggleProjectsDisplay}
           >
