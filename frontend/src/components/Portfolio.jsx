@@ -248,7 +248,7 @@ const Portfolio = () => {
         </h1>
         {/*about */}
       
-        <p className={`text-sm md:text-lg lg:text-2xl text-center mt-10 mx-10 lg:mx-auto max-w-2xl lg:max-w-7xl ${darkToggle ? 'text-white' : 'text-black'}`} style={{ lineHeight: "1.5" }} ref={sectionRefs.about} >
+        <p className={`text-sm md:text-lg lg:text-2xl text-center mt-10 mx-10 lg:mx-auto max-w-2xl lg:max-w-7xl ${darkToggle ? 'text-white' : 'text-black'}`} style={{ lineHeight: "1.8" }} ref={sectionRefs.about} >
           I am a full-stack developer. I started learning programming and web development about two years ago. I am really enthusiastic about it and have become skilled in both front-end and back-end development. I am currently pursuing a Bachelor's degree in Computer Science and Engineering. I am proud to be one of the founders of the CodeRizz Coding Club at SRMVEC, where I am in charge of leading the domain of Web Development. I always enjoy learning and staying updated with new technologies through building projects. Let's work together and create something amazing!
         </p>
         <div className="mt-10">
@@ -270,9 +270,12 @@ const Portfolio = () => {
       <div className="flex justify-center mt-20">
           <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"}`}  ref={sectionRefs.projects}>Portfolio</h1>
         </div>
-       
+      
       <div className="mt-5">
         <div className="flex justify-center">
+          <p  className={`text-2xl font-small ${
+              darkToggle ? "bg-purple-700 text-white" : "bg-gray-900 text-white"
+            }`}>click here to view personal projects and team projects</p>
           <button
             className={`text-2xl font-medium py-2 px-6 rounded-lg ${
               darkToggle ? "bg-purple-700 text-white" : "bg-gray-900 text-white"
@@ -340,7 +343,7 @@ const Portfolio = () => {
         <h2 className="text-2xl font-medium">Back-End</h2>
         <ul className="mt-5">
           <li>Node JS</li>
-          <li>Express Js</li>
+          <li>Express JS</li>
           <li>Flask</li>
           <li>Django</li>
         </ul>
