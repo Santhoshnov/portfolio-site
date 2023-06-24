@@ -274,11 +274,11 @@ const Portfolio = () => {
       <div className="mt-5">
         <div className="flex justify-center">
           <p  className={`text-xl font-sm ${
-              darkToggle ? "bg-purple-700 text-white" : "bg-gray-900 text-white"
+              darkToggle ? " text-white" : "text-gray"
             }`}>click this 👉🏻</p>
           <button
             className={`text-2xl font-medium py-2 px-6 rounded-lg ${
-              darkToggle ? "text-white" : "text-gray"
+              darkToggle ? "bg-purple-700 text-white" : "bg-gray-900 text-white"
             }`}
             onClick={toggleProjectsDisplay}
           >
