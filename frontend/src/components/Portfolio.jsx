@@ -137,7 +137,9 @@ const Portfolio = () => {
   const navbarColor = darkToggle ? "#303234" : "#FAFAFA";
 
   return (
-    <div className={`min-h-screen ${darkToggle ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+    <div className={`min-h-screen ${darkToggle ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}  style={{
+      transition: 'background-color 0.5s, color 0.5s', 
+    }}>
       {/* Navbar */}
       <nav className={`${darkToggle ? "bg-gray-800" : "bg-white"} p-4 flex items-center justify-between`} style={{ backgroundColor: navbarColor }}>
         <div className="flex items-center">
