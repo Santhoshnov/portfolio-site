@@ -227,13 +227,13 @@ const Portfolio = () => {
         </ul>
       </nav>
      {/*home */}
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center mt-10">
         <div className="rounded-lg overflow-hidden shadow-md w-48 sm:w-56 md:w-64 shadow-lg hover:scale-105 duration-300" ref={sectionRefs.home}>
           <img src={santhosh} alt="" className="w-full h-auto" />
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center mt-5">
+      <div className="flex flex-col justify-center items-center mt-10">
         <h1 className="text-4xl md:text-4xl text-xl md:text-4xl text-center pt-14 font-bold">
           Hello World!{" "}
           <span className={`text-purple-700 font-bold ${darkToggle ? "text-purple-400" : ""}`}>
