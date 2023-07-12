@@ -138,10 +138,10 @@ const Portfolio = () => {
 
   return (
     <div className={`min-h-screen ${darkToggle ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}  style={{
-      transition: 'background-color 0.5s, color 0.5s', 
+      transition: 'background-color 0.7s, color 0.7s', 
     }}>
       {/* Navbar */}
-      <nav className={`${darkToggle ? "bg-gray-800" : "bg-white"} p-4 flex items-center justify-between`} style={{ backgroundColor: navbarColor }}>
+      <nav className={`${darkToggle ? "bg-gray-800" : "bg-white"} p-4 flex items-center justify-between`} style={{ backgroundColor: navbarColor}}>
         <div className="flex items-center">
           <h2 className={`text-2xl font-medium bold ${darkToggle ? "text-white" : "text-gray-900"} ${darkToggle ? "no-underline" : ""}`}>
             <FontAwesomeIcon icon={faLaptopCode} /> SANTHOSH
@@ -227,8 +227,8 @@ const Portfolio = () => {
         </ul>
       </nav>
      {/*home */}
-      <div className="flex justify-center mt-20"  ref={sectionRefs.home}>
-        <div className="rounded-lg overflow-hidden shadow-md w-48 sm:w-56 md:w-64 shadow-lg hover:scale-105 duration-300">
+      <div className="flex justify-center mt-15">
+        <div className="rounded-lg overflow-hidden shadow-md w-48 sm:w-56 md:w-64 shadow-lg hover:scale-105 duration-300" ref={sectionRefs.home}>
           <img src={santhosh} alt="" className="w-full h-auto" />
         </div>
       </div>
@@ -249,8 +249,7 @@ const Portfolio = () => {
           </span>
         </h1>
         {/*about */}
-      
-        <p className={`text-sm md:text-lg lg:text-2xl text-center mt-10 mx-10 lg:mx-auto max-w-2xl lg:max-w-7xl ${darkToggle ? 'text-white' : 'text-black'}`} style={{ lineHeight: "1.8" }} ref={sectionRefs.about} >
+        <p className={`text-sm md:text-lg lg:text-2xl text-center mt-10 mx-10 lg:mx-auto max-w-2xl lg:max-w-7xl ${darkToggle ? 'text-white' : 'text-black'}`} style={{ lineHeight: "1.8" }}  ref={sectionRefs.about}>
           I am a full-stack developer. I started learning programming and web development about two years ago. I am really enthusiastic about it and have become skilled in both front-end and back-end development. I am currently pursuing a Bachelor's degree in Computer Science and Engineering. I am proud to be one of the founders of the CodeRizz Coding Club at SRMVEC, where I am in charge of leading the domain of Web Development. I always enjoy learning and staying updated with new technologies through building projects. Let's work together and create something amazing!
         </p>
         <div className="mt-10">
@@ -270,7 +269,7 @@ const Portfolio = () => {
 </div>
  {/*portfolio */}
       <div className="flex justify-center mt-20">
-          <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"}`}  ref={sectionRefs.projects}>Portfolio</h1>
+          <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"}`} ref={sectionRefs.projects}>Portfolio</h1>
         </div>
 
         
@@ -310,7 +309,7 @@ const Portfolio = () => {
  {/*skills */}
 <div className="mt-20">
   <div className="flex justify-center">
-    <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"}`}  ref={sectionRefs.skills}>Skills</h1>
+    <h1 className={`text-4xl font-medium ${darkToggle ? "text-white" : "text-black"} `} ref={sectionRefs.skills}>Skills</h1>
   </div>
 
   <div className="flex flex-wrap justify-center mt-5">
