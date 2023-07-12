@@ -150,27 +150,27 @@ const Portfolio = () => {
         <div className="ml-auto flex items-center">
           <ul className={`hidden md:flex space-x-20 ${darkToggle ? "text-white" : "text-gray-900"}`}>
             <li>
-              <button className="text-2xl font-medium" onClick={() => scrollToSection('home')}>
+              <button className="text-xl font-medium" onClick={() => scrollToSection('home')}>
                 Home
               </button>
             </li>
             <li>
-              <button className="text-2xl font-medium" onClick={() => scrollToSection('about')}>
+              <button className="text-xl font-medium" onClick={() => scrollToSection('about')}>
                 About
               </button>
             </li>
             <li>
-              <button className="text-2xl font-medium" onClick={() => scrollToSection('projects')}>
+              <button className="text-xl font-medium" onClick={() => scrollToSection('projects')}>
               Portfolio
               </button>
             </li>
             <li>
-              <button className="text-2xl font-medium" onClick={() => scrollToSection('skills')}>
+              <button className="text-xl font-medium" onClick={() => scrollToSection('skills')}>
                 Skills
               </button>
             </li>
             <li>
-              <button className="text-2xl font-medium" onClick={() => scrollToSection('contact')}>
+              <button className="text-xl font-medium" onClick={() => scrollToSection('contact')}>
                 Contact
               </button>
             </li>
