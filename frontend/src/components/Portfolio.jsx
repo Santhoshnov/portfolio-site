@@ -141,7 +141,7 @@ const Portfolio = () => {
       transition: 'background-color 0.5s, color 0.5s', 
     }}>
       {/* Navbar */}
-      <nav className={`${darkToggle ? "bg-gray-800" : "bg-white"} p-4 flex items-center justify-between`} style={{ backgroundColor: navbarColor,position:fixed,top:0}}>
+      <nav className={`${darkToggle ? "bg-gray-800" : "bg-white"} p-4 flex items-center justify-between`} style={{ backgroundColor: navbarColor,position:fixed,top:0,}}>
         <div className="flex items-center">
           <h2 className={`text-2xl font-medium bold ${darkToggle ? "text-white" : "text-gray-900"} ${darkToggle ? "no-underline" : ""}`}>
             <FontAwesomeIcon icon={faLaptopCode} /> SANTHOSH
