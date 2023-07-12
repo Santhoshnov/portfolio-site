@@ -233,7 +233,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center mt-10">
+      <div className="flex flex-col justify-center items-center mt-5">
         <h1 className="text-4xl md:text-4xl text-xl md:text-4xl text-center pt-14 font-bold">
           Hello World!{" "}
           <span className={`text-purple-700 font-bold ${darkToggle ? "text-purple-400" : ""}`}>
