@@ -227,7 +227,7 @@ const Portfolio = () => {
         </ul>
       </nav>
      {/*home */}
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-10">
         <div className="rounded-lg overflow-hidden shadow-md w-48 sm:w-56 md:w-64 shadow-lg hover:scale-105 duration-300" ref={sectionRefs.home}>
           <img src={santhosh} alt="" className="w-full h-auto" />
         </div>
