@@ -138,10 +138,10 @@ const Portfolio = () => {
 
   return (
     <div className={`min-h-screen ${darkToggle ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}  style={{
-      transition: 'background-color 0.5s, color 0.5s', 
-    }}>
+      transition: 'background-color 0.7s, color 0.7s', 
+    }} ref={sectionRefs.home}>
       {/* Navbar */}
-      <nav className={`${darkToggle ? "bg-gray-800" : "bg-white"} p-4 flex items-center justify-between`} style={{ backgroundColor: navbarColor}}>
+      <nav className={`${darkToggle ? "bg-gray-800" : "bg-white"} p-4 flex items-center justify-between sticky top-0 w-full`} style={{ backgroundColor: navbarColor}}>
         <div className="flex items-center">
           <h2 className={`text-2xl font-medium bold ${darkToggle ? "text-white" : "text-gray-900"} ${darkToggle ? "no-underline" : ""}`}>
             <FontAwesomeIcon icon={faLaptopCode} /> SANTHOSH
@@ -227,7 +227,7 @@ const Portfolio = () => {
         </ul>
       </nav>
      {/*home */}
-      <div className="flex justify-center mt-20"  ref={sectionRefs.home}>
+      <div className="flex justify-center mt-20">
         <div className="rounded-lg overflow-hidden shadow-md w-48 sm:w-56 md:w-64 shadow-lg hover:scale-105 duration-300">
           <img src={santhosh} alt="" className="w-full h-auto" />
         </div>
