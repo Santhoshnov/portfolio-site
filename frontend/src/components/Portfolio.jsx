@@ -36,7 +36,7 @@ const PersonalProjects = () => {
     {
       title: "Linkify",
       image: project4,
-      githubLink: "https://github.com/Santhoshnov/Linkify",
+      githubLink: "https://github.com/Santhoshnov/linkify-urlShortener",
     },
   ];
 
