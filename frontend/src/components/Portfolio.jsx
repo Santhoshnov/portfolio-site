@@ -262,7 +262,7 @@ const Portfolio = () => {
       }`}
     >
       <FontAwesomeIcon icon={faDownload} className="mr-1" />
-      Download Resume
+      Download CV
     </a>
   </div>
 </div>
